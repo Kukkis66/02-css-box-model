@@ -1,0 +1,145 @@
+/*MOBILE FIRST*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+  max-width: 1024px;
+}
+h1,
+h2,
+h3,
+section,
+p,
+pre,
+aside,
+ul {
+  margin-block-end: 1rem;
+}
+
+section {
+  padding: 1rem;
+  background-color: #bbddee;
+}
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  margin: -1rem -1rem 1rem 1rem;
+  font-size: 2.8rem;
+  text-align: right;
+  padding: 0.5rem 2rem 0.5rem 0;
+  background-color: #88aabb;
+  text-transform: lowercase;
+  letter-spacing: 0.3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+p {
+  font-size: 1.6rem;
+}
+pre {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.9;
+  padding-inline-start: 2rem;
+  margin: 3rem;
+}
+aside {
+  background-color: #ffffff;
+}
+ul {
+  font-size: 1.6;
+}
+
+.qbig {
+  float: left;
+  font-size: 500%;
+  width: 1.2em;
+  text-align: center;
+  padding: 0.1em 0.1em 0;
+  background-color: #568;
+  border: solid white 1px;
+  border-width: 0 0.2em 0.2em 0;
+  margin: -1rem 0.5em 0.2em -1rem;
+  color: rgb(172, 2, 2);
+}
+
+.secondsection {
+  border: solid 1px black;
+}
+
+.header2 {
+  margin: -1rem -1rem 1rem 1rem;
+  font-size: 2.8rem;
+  text-align: right;
+  padding: 0.5rem 2rem 0.5rem 0;
+  background-color: #88aabb;
+  text-transform: lowercase;
+  letter-spacing: 0.3rem;
+}
+
+#small-icon-left {
+  float: left;
+  display: block; /* kuvasta responsiivinen*/
+  width: 10rem;
+  background-color: white;
+  border: solid black 0.1em;
+  border-width: 0 1px 1px 0;
+  padding: 0.4rem;
+  margin: -1.1rem 2rem 1rem -1.1rem;
+}
+
+#small-icon-left img {
+  max-width: 100%; /* kuvasta responsiivinen */
+}
+
+.thirdsection {
+  border: solid black 1px;
+}
+.banner1 {
+  float: left;
+  display: block;
+  width: 33%;
+  margin: -1.1rem 2rem 1rem -1.1rem;
+  border: solid black 1px;
+  border-width: 0 1px 1px 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.banner2 {
+  display: block;
+  float: right;
+  text-align: left;
+  width: 25%;
+  margin: 0.2rem -1.1rem 0.2rem 0.5rem;
+  padding: 1rem;
+  font-style: italic;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: solid black 1px;
+  border-width: 1px 0 1px 1px;
+}
+
+/* Tablet ja suuremmat nnakymatt */
+
+@media only screen and (min-width: 426px) {
+  body {
+    background-color: red;
+  }
+
+  #box3 .banner1 {
+    background-color: white;
+    padding: 1rem;
+    width: 40rem;
+    float: left;
+    margin-inline-end: 2rem;
+    margin-block-end: 2rem;
+  }
+}
